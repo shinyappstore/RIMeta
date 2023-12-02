@@ -1,19 +1,9 @@
-# RIMeta
-R Shiny Application to Estimate a Reference Interval from a Meta-Analysis
-
-Ziren Jiang*, Wenhao Cao*, Fateh Bazerbachi, Haitao Chu, Lianne Siegel
-
-\* denotes contributed equally
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s267_6BkY4Y6UKJZpcycrqICQs9UBQE04aC2ak9Udelvj_logo_311.jpg)
 
 
-Code supporting RIMeta application for estimating a reference interval from a meta-analysis. See link to Shiny app (https://cers.shinyapps.io/RIMeta/) for application and further information on its use.
 
-References:
+# RIMeta: Estimate the Reference Interval from a Meta-Analysis
 
-[1]: Siegel L, Murad MH, Chu H. Estimating the reference range from a meta‐analysis. Research synthesis methods. 2021 Mar;12(2):148-60.
+#### Use app online: __[www.shinyappstore.com/a/RIMeta](https://shinyappstore.com/a/RIMeta)__
 
-[2]: Cao W, Siegel L, Zhou J, Zhu M, Tong T, Chen Y, Chu H. Estimating the reference interval from a fixed effects meta‐analysis. Research Synthesis Methods. 2021 Apr 17;12:630-640
-
-[3]: Lianne Siegel, M Hassan Murad, Richard D Riley, Fateh Bazerbachi,Zhen Wang, Haitao Chu, A Guide to Estimating the Reference Range From a Meta-Analysis Using Aggregate or Individual Participant Data, American Journal of Epidemiology, Volume 191, Issue 5, May 2022, Pages 948 -956
-
-If you use RIMeta please cite these papers.
+RIMeta is a user-friendly and robust application designed for meta-analysis, specifically focusing on estimating pooled mean and reference intervals. It offers two meta-analysis models: the random effects model and the fixed effects model. The random effects model considers both between-study and within-study variations, while the fixed effects model assumes independent study means, typically preferred with a small number of studies. RIMeta provides multiple methods for estimating the reference interval. For the fixed effects model, it implements the mixture distribution method proposed by Cao et al. This method assumes the pooled population is representative of the overall population, allowing each study to have any distribution determined by mean and variance. While it doesn't restrict the distribution type for each study, RIMeta treats them as normally distributed for simplicity. Overall, RIMeta stands out as a powerful tool. Published: Res Synth Methods. 2023 May;14(3):468-478.
